@@ -1,0 +1,22 @@
+project:
+  name: aqi-bangladesh-forecasting
+  random_state: 42
+
+data:
+  target: aqi
+  timestamp: datetime
+  city: city_name
+  horizon_hours: 1
+  test_fraction: 0.20
+
+outliers:
+  lower_quantile: 0.01
+  upper_quantile: 0.99
+
+features:
+  lags: [1, 3, 6, 12, 24, 48, 168]
+  rolling_windows: [3, 6, 12, 24, 168]
+
+training:
+  cv_splits: 4
+  max_iter: 200
