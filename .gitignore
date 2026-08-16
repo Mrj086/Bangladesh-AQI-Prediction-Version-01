@@ -1,14 +1,74 @@
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 .pytest_cache/
-.ipynb_checkpoints/
-*.pyc
-.env
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-models/*
-reports/figures/*
-reports/metrics/*
-logs/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Conda / virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+request.json
+request_*.json
+
+# Large raw datasets
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.gz
+
+# Large processed datasets
+data/processed/*.parquet
+data/processed/*.feather
+data/processed/*.pkl
+
+# Trained model artifacts
+models/deep_learning/*.pt
+models/deep_learning/*.pth
+models/*.pt
+models/*.pth
+models/*.pkl
+models/*.joblib
+
+# Large prediction artifacts
+reports/metrics/*predictions*.parquet
+reports/metrics/*predictions*.csv
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/deep_learning/.gitkeep
