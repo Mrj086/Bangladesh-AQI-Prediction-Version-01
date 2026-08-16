@@ -254,7 +254,7 @@ streamlit run dashboard/app.py
 
 **YOUR NAME**
 
-🔗 LinkedIn: **YOUR_LINKEDIN_URL**
+🔗 LinkedIn: **www.linkedin.com/in/md-miraj-ul-islam-77b30b26a**
 
 ---
 
