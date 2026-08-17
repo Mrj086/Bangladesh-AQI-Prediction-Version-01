@@ -252,7 +252,7 @@ streamlit run dashboard/app.py
 
 ## 👤 Author
 
-**YOUR NAME**
+**MD. MIRAJ-UL-ISLAM**
 
 🔗 LinkedIn: **www.linkedin.com/in/md-miraj-ul-islam-77b30b26a**
 
